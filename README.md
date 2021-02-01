@@ -6,6 +6,7 @@
 8  감시[골5] https://www.acmicpc.net/problem/15683<br>
 11 빗물[골5] https://www.acmicpc.net/problem/14719<br>
 12 로봇 청소기[골5] https://www.acmicpc.net/problem/14503<br>
+13 숨바꼭질4(RE) [골4] https://www.acmicpc.net/problem/13913<br>
 9  우주신과의 교감[골4] https://www.acmicpc.net/problem/1774<br>
 10 별자리 만들기[골4] https://www.acmicpc.net/problem/4386<br>
 6  스타트 택시[골4] https://www.acmicpc.net/problem/19238<br>
