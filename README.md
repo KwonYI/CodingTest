@@ -1,7 +1,8 @@
-# Baekjoon - 17
+# Baekjoon - 18
 
 1  안전영역[실1] https://www.acmicpc.net/problem/2468<br>
 4  절댓값 힙[실1] https://www.acmicpc.net/problem/11286<br>
+18 구간 합 구하기 5[실1] https://www.acmicpc.net/problem/11660<br>
 5  카잉 달력(RE) [실1] https://www.acmicpc.net/problem/6064<br>
 8  감시[골5] https://www.acmicpc.net/problem/15683<br>
 11 빗물[골5] https://www.acmicpc.net/problem/14719<br>
