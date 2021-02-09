@@ -9,6 +9,7 @@
 15 테트로미노[골5] https://www.acmicpc.net/problem/14500<br>
 16 ABCDE(RE)[골5] https://www.acmicpc.net/problem/13023<br>
 17 스타트링크(RE)[골5] https://www.acmicpc.net/problem/5014<br>
+19 이중 우선순위 큐[골5] https://www.acmicpc.net/problem/7662<br>
 12 로봇 청소기[골5] https://www.acmicpc.net/problem/14503<br>
 19 보물섬[골5] https://www.acmicpc.net/problem/2589<br>
 14 숨바꼭질4(RE) [골4] https://www.acmicpc.net/problem/13913<br>
