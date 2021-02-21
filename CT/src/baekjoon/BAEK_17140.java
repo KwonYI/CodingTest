@@ -1,18 +1,28 @@
 package baekjoon;
 
-// 푸는중
 import java.io.*;
 import java.util.*;
 
 public class BAEK_17140 {
 
+	static class Element implements Comparable<Element> {
+		int num;
+		int cnt;
+
+		public Element(int num, int cnt) {
+			this.num = num;
+			this.cnt = cnt;
+		}
+
+		public int compareTo(Element o) {
+			if (o.cnt == this.cnt) return this.num - o.num;
+			else return this.cnt - o.cnt;
+		}
+	}
+
 	static int r, c, k;
-	static int time;
-	static ArrayList<ArrayList<Integer>> arr;
-	
-	static ArrayList<Integer> sub = new ArrayList<>();
-	static HashMap<Integer, Integer> countKey = new HashMap<>(); // 값 : 횟수
-	static TreeMap<Integer, PriorityQueue<Integer>> sortMap = new TreeMap<>(); // 횟수 : 값
+	static int[][] A = new int[101][101];
+	static int maxR = 3, maxC = 3; // 가장 긴 행과 열의 길이
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -22,74 +32,88 @@ public class BAEK_17140 {
 		c = Integer.parseInt(st.nextToken());
 		k = Integer.parseInt(st.nextToken());
 
-		arr = new ArrayList<ArrayList<Integer>>();
-
-		for (int i = 0; i < 3; i++) {
-
+		for (int R = 1; R <= 3; R++) {
 			st = new StringTokenizer(bf.readLine());
-			arr.add(new ArrayList<Integer>());
-
-			for (int j = 0; j < 3; j++) {
-				arr.get(i).add(Integer.parseInt(st.nextToken()));
+			for (int C = 1; C <= 3; C++) {
+				A[R][C] = Integer.parseInt(st.nextToken());
 			}
 		}
 		
-		time = 0;
-		int R = 3; // 행 갯수
-		int C = 3; // 열 갯수
+		int time = 0;
 		
-		while(getRC() != k) {
-			if(time > 100) {
-				time = -1;
-				break;
-			}
-			
-			if(R >= C) {
-				for (int row = 0; row < R; row++) {
-					sort(true, row);
-				}
+		while(A[r][c] != k) {
+			if(maxR >= maxC) {
+				action(true, maxR, maxC);
 			}else {
-				for (int col = 0; col < C; col++) {
-					sort(false, col);
+				action(false, maxR, maxC);
+			}
+			
+			if(++time > 100) break;
+		}
+		
+		if(time > 100) System.out.println(-1);
+		else System.out.println(time);
+
+	}
+
+	private static void action(boolean flag, int R, int C) { // true면 R, false면 C
+		if(flag) {
+			for (int r = 1; r <= R; r++) {
+				HashMap<Integer, Integer> map = new HashMap<>();
+				for (int c = 1; c <= C; c++) {
+					if(A[r][c] == 0) continue;
+					map.put(A[r][c], map.getOrDefault(A[r][c], 0) + 1);
+					A[r][c] = 0;
+				}
+				
+				PriorityQueue<Element> pq = new PriorityQueue<>();
+				for (Integer key : map.keySet()) {
+					pq.add(new Element(key, map.get(key)));
+				}
+				
+				maxC = Math.max(maxC, map.size() * 2);
+				
+				int c = 1;
+				while(!pq.isEmpty()) {
+					Element cur = pq.poll();
+					A[r][c++] = cur.num;
+					A[r][c++] = cur.cnt;
+					
+					if(c > 100) {
+						maxC = 100;
+						break;
+					}
 				}
 			}
 			
-			time++;
-		}
-		
-		System.out.println(time);
-	}
-	
-	private static void sort(boolean isR, int index) { // 값 : 횟수
-		countKey.clear();
-		
-		if(isR) { // 행 정렬
-			for (int ele : arr.get(index)) {
-				if(ele == 0) continue;
-				countKey.put(ele, countKey.getOrDefault(ele, 0) + 1);
-			}
-		}else { // 열 정렬
-			for (int rowIndex = 0; rowIndex < arr.size(); rowIndex++) {
-				int ele = arr.get(rowIndex).get(index);
+		}else {
+			for (int c = 1; c <= C; c++) {
+				HashMap<Integer, Integer> map = new HashMap<>();
+				for (int r = 1; r <= R; r++) {
+					if(A[r][c] == 0) continue;
+					map.put(A[r][c], map.getOrDefault(A[r][c], 0) + 1);
+					A[r][c] = 0;
+				}
 				
-				if(ele == 0) continue;
-				countKey.put(ele, countKey.getOrDefault(ele, 0) + 1);
+				PriorityQueue<Element> pq = new PriorityQueue<>();
+				for (Integer key : map.keySet()) {
+					pq.add(new Element(key, map.get(key)));
+				}
+				
+				maxR = Math.max(maxR, map.size() * 2);
+				
+				int r = 1;
+				while(!pq.isEmpty()) {
+					Element cur = pq.poll();
+					A[r++][c] = cur.num;
+					A[r++][c] = cur.cnt;
+					
+					if(r > 100) {
+						maxR = 100;
+						break;
+					}
+				}
 			}
 		}
-		sortByValue(countKey);
-	}
-
-	private static void sortByValue(HashMap<Integer, Integer> map) { // 횟수 : 값의 배열
-		for (Integer values : map.values()) {
-			
-		}
-	}
-
-	public static void addZero() {
-		
-	}
-	
-	public static int getRC() {
-		return arr.get(r - 1).get(c - 1);
 	}
 }
