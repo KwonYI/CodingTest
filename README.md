@@ -1,4 +1,4 @@
-# Baekjoon - 23
+# Baekjoon - 24
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |1|[안전영역[실1]](https://www.acmicpc.net/problem/2468)|
@@ -23,6 +23,7 @@
 |23|[내려가기[골4]](https://www.acmicpc.net/problem/2096)|
 |2|[파티[골3]](https://www.acmicpc.net/problem/1238)|
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
+|24|원판 돌리기[[골3]](https://www.acmicpc.net/problem/17822||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
 
 # Programmers - 1
