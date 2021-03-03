@@ -1,4 +1,4 @@
-# Baekjoon - 30
+# Baekjoon - 31
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -27,6 +27,7 @@
 |27|[녹색 옷 입은 애가 젤다지?[골4]](https://www.acmicpc.net/problem/4485)|
 |29|[미친 아두이노[골4]](https://www.acmicpc.net/problem/8972)|
 |30|[벽 부수고 이동하기[골4]](https://www.acmicpc.net/problem/2206)|
+|31|[치즈[골4]](https://www.acmicpc.net/problem/2638)|
 |2|[파티[골3]](https://www.acmicpc.net/problem/1238)|
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
