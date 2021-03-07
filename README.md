@@ -1,4 +1,4 @@
-# Baekjoon - 33
+# Baekjoon - 34
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -30,6 +30,7 @@
 |30|[벽 부수고 이동하기[골4]](https://www.acmicpc.net/problem/2206)|
 |31|[치즈[골4]](https://www.acmicpc.net/problem/2638)|
 |33|[알파벳[골4]](https://www.acmicpc.net/problem/1987)|(RE)|
+|34|[최소스패닝트리[골4]](https://www.acmicpc.net/problem/1197)||
 |2|[파티[골3]](https://www.acmicpc.net/problem/1238)|
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
