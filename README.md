@@ -37,8 +37,9 @@
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
 
-# Programmers - 1
+# Programmers - 2
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
+|2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12899) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
