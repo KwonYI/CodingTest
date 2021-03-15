@@ -1,4 +1,4 @@
-# Baekjoon - 35
+# Baekjoon - 36
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -36,6 +36,7 @@
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
+|36|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(On)|
 
 # Programmers - 2
 
@@ -43,3 +44,9 @@
 |:---:|:---:|:---:|
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12899) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
+
+# SWEA - 1
+
+|문제 푼 순서|문제 이름|비고|
+|:---:|:---:|:---:|
+|1|[등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) |
