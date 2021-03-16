@@ -36,7 +36,7 @@
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
-|36|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(On)|
+|36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 
 # Programmers - 2
 
