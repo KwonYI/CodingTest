@@ -5,78 +5,79 @@ import java.util.*;
 
 public class BAEK_1197 {
 	
-	static class Node implements Comparable<Node>{
-		int t;
-		int f;
+	static class Node{
+		int from;
+		int to;
 		int price;
 		
-		public Node(int t, int f, int price) {
-			this.t = t;
-			this.f = f;
+		public Node(int from, int to, int price) {
+			this.from = from;
+			this.to = to;
 			this.price = price;
-		}
-		
-		public int compareTo(Node o) {
-			return this.price - o.price;
 		}
 	}
 	
-	static int N, M;
-	
+	static int V, E;
 	static int[] p;
-	static int total;
-	static PriorityQueue<Node> arr = new PriorityQueue<Node>();
+	static ArrayList<Node> nodes = new ArrayList<>();
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
+		V = Integer.parseInt(st.nextToken());
+		E = Integer.parseInt(st.nextToken());
 		
-		p = new int[N + 1];
-		
-		for (int i = 1; i <= N; i++) {
+		p = new int[V + 1];
+		for (int i = 1; i <= V; i++) {
 			p[i] = i;
 		}
 		
-		for (int i = 0; i < M; i++) {
+		for (int i = 0; i < E; i++) {
 			st = new StringTokenizer(bf.readLine());
 			
-			int t = Integer.parseInt(st.nextToken());
-			int f = Integer.parseInt(st.nextToken());
+			int from = Integer.parseInt(st.nextToken());
+			int to = Integer.parseInt(st.nextToken());
 			int price = Integer.parseInt(st.nextToken());
 			
-			arr.add(new Node(f, t, price));
+			nodes.add(new Node(from, to, price));
 		}
 		
-		int cnt = 0;
-		while (!arr.isEmpty()) {
-			Node cur = arr.poll();
+		Collections.sort(nodes, new Comparator<Node>() {
+			public int compare(Node o1, Node o2) {
+				return o1.price - o2.price;
+			}
+		});
 		
-			int t = cur.t;
-			int f = cur.f;
+		long total = 0;
+		int cnt = 0;
+		
+		for (Node cur : nodes) {
+			int from = cur.from;
+			int to = cur.to;
 			
-			if(union(t, f)) {
+			if(union(from, to)) {
 				total += cur.price;
-				if(++cnt == N - 1) break;
+				if(++cnt == V - 1) break;
 			}
 		}
 		
 		System.out.println(total);
-	}
-	
-	public static int find(int t) {
-		if(t != p[t]) p[t] = find(p[t]);
-		return p[t];
-	}
-	
-	public static boolean union(int t, int f) {
-		int tp = find(t);
-		int fp = find(f);
-		if(tp == fp) return false;
 		
-		p[fp] = tp;
+	}
+	
+	public static int find(int x) {
+		if(x != p[x]) p[x] = find(p[x]);
+		return p[x];
+	}
+	
+	public static boolean union(int x, int y) {
+		int px = find(x);
+		int py = find(y);
+		
+		if(px == py) return false;
+		
+		p[py] = px;
 		return true;
 	}
 }
