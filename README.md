@@ -1,4 +1,4 @@
-# Baekjoon - 36
+# Baekjoon - 37
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -10,6 +10,7 @@
 |25|[A -> B[실1]](https://www.acmicpc.net/problem/16953)|
 |28|[순열 사이클[실1]](https://www.acmicpc.net/problem/10451)|
 |35|[RGB 거리[실1]](https://www.acmicpc.net/problem/1149)|
+|37|[영역 구하기[실1]](https://www.acmicpc.net/problem/2583)|
 |8|[감시[골5]](https://www.acmicpc.net/problem/15683)|
 |11|[빗물[골5]](https://www.acmicpc.net/problem/14719)|
 |15|[테트로미노[골5]](https://www.acmicpc.net/problem/14500)|
