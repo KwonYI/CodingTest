@@ -1,7 +1,8 @@
-# Baekjoon - 38
+# Baekjoon - 39
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
+|39|[스티커[실2]](https://www.acmicpc.net/problem/9465)|
 |1|[안전영역[실1]](https://www.acmicpc.net/problem/2468)|
 |4|[절댓값 힙[실1]](https://www.acmicpc.net/problem/11286)|
 |18|[구간 합 구하기 5[실1]](https://www.acmicpc.net/problem/11660)|
