@@ -1,4 +1,4 @@
-# Baekjoon - 39
+# Baekjoon - 40
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -38,6 +38,7 @@
 |2|[파티[골3]](https://www.acmicpc.net/problem/1238)|
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
+|40|[가장 긴 바이토닉 부분 수열[골3]](https://www.acmicpc.net/problem/11054)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 
