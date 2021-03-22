@@ -1,4 +1,4 @@
-# Baekjoon - 40
+# Baekjoon - 41
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -22,6 +22,7 @@
 |20|[보물섬[골5]](https://www.acmicpc.net/problem/2589)|
 |31|[연구소[골5]](https://www.acmicpc.net/problem/14502)|
 |38|[최단거리[골5]](https://www.acmicpc.net/problem/1753)|
+|41|[파이프 옮기기1[골5]](https://www.acmicpc.net/problem/17070)|
 |14|[숨바꼭질4[골4]](https://www.acmicpc.net/problem/13913)|(RE)|
 |9|[우주신과의 교감[골4]](https://www.acmicpc.net/problem/1774)|
 |10|[별자리 만들기[골4]](https://www.acmicpc.net/problem/4386)|
