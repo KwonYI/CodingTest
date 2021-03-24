@@ -1,4 +1,4 @@
-# Baekjoon - 41
+# Baekjoon - 43
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -23,6 +23,7 @@
 |31|[연구소[골5]](https://www.acmicpc.net/problem/14502)|
 |38|[최단거리[골5]](https://www.acmicpc.net/problem/1753)|
 |41|[파이프 옮기기1[골5]](https://www.acmicpc.net/problem/17070)|
+|43|[최소비용 구하기[골5]](https://www.acmicpc.net/problem/1916)|
 |14|[숨바꼭질4[골4]](https://www.acmicpc.net/problem/13913)|(RE)|
 |9|[우주신과의 교감[골4]](https://www.acmicpc.net/problem/1774)|
 |10|[별자리 만들기[골4]](https://www.acmicpc.net/problem/4386)|
@@ -42,6 +43,7 @@
 |40|[가장 긴 바이토닉 부분 수열[골3]](https://www.acmicpc.net/problem/11054)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
+|42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 
 # Programmers - 2
 
