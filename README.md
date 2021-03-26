@@ -52,9 +52,10 @@
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12899) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 
-# SWEA - 2
+# SWEA - 3
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |1|[등산로 조성(모의역량)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) |
 |2|[ATM(D2)](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWo3QBrKSewDFAQi&categoryId=AWo3QBrKSewDFAQi&categoryType=CODE) |
+|3|[A -> B(D3)](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWo3PPBaSecDFAQi) |
