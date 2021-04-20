@@ -1,4 +1,4 @@
-# Baekjoon - 45
+# Baekjoon - 46
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
@@ -26,6 +26,7 @@
 |43|[최소비용 구하기[골5]](https://www.acmicpc.net/problem/1916)|
 |44|[A와 B[골5]](https://www.acmicpc.net/problem/12904)|
 |45|[평범한 배낭[골5]](https://www.acmicpc.net/problem/12865)|
+|46|[선수 과목[골5]](https://www.acmicpc.net/problem/14567)|
 |14|[숨바꼭질4[골4]](https://www.acmicpc.net/problem/13913)|(RE)|
 |9|[우주신과의 교감[골4]](https://www.acmicpc.net/problem/1774)|
 |10|[별자리 만들기[골4]](https://www.acmicpc.net/problem/4386)|
