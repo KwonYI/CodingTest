@@ -1,6 +1,7 @@
-# Baekjoon - 47
+# Baekjoon - 48
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
+|48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
 |39|[스티커[실2]](https://www.acmicpc.net/problem/9465)|
 |1|[안전영역[실1]](https://www.acmicpc.net/problem/2468)|
