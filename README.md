@@ -1,4 +1,4 @@
-# Baekjoon - 49
+# Baekjoon - 50
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
@@ -29,6 +29,7 @@
 |45|[평범한 배낭[골5]](https://www.acmicpc.net/problem/12865)|
 |46|[선수 과목[골5]](https://www.acmicpc.net/problem/15686)|
 |47|[치킨 배달[골5]](https://www.acmicpc.net/problem/14567)|
+|50|[문자 해독[골5]](https://www.acmicpc.net/problem/1593)|
 |14|[숨바꼭질4[골4]](https://www.acmicpc.net/problem/13913)|(RE)|
 |9|[우주신과의 교감[골4]](https://www.acmicpc.net/problem/1774)|
 |10|[별자리 만들기[골4]](https://www.acmicpc.net/problem/4386)|
