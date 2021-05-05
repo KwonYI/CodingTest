@@ -53,11 +53,12 @@
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 
-# Programmers - 3
+# Programmers - 4
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |3|[신규 아이디 추천[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/72410) |
+|4|[크레인 인형 뽑기 게임[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/64061) |
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12899) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 
