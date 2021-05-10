@@ -54,7 +54,7 @@
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 
-# Programmers - 6
+# Programmers - 7
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -62,6 +62,7 @@
 |4|[크레인 인형 뽑기 게임[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/64061) |
 |5|[키패드 누르기[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/67256) |
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12899) |
+|7|[메뉴 리뉴얼[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/72411) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 |6|[불량 사용자[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/64064) |
 # SWEA - 4
