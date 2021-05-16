@@ -1,5 +1,6 @@
+package programmers;
 // 경계값 주의
-class Solution {
+class  Programmers_스티커모으기{
     public int solution(int sticker[]) {
         int length = sticker.length;
         
