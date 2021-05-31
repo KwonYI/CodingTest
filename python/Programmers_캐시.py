@@ -1,12 +1,21 @@
-def solution(skill, skill_trees):
-    answer = 0
-    for skills in skill_trees :
-        sub = []
-        for s in skill :
-            try : 
-                sub.append(skills.index(s))
-            except :
-                sub.append(99)
-        if sub == sorted(sub) :
-            answer += 1
+# cache = collections.deque(maxlen=cacheSize)?
+def solution(cacheSize, cities):
+    if cacheSize == 0 :
+        answer = 5 * len(cities)
+    else :
+        cache = []
+        answer = 0
+        
+        for i in range(len(cities)) :
+            city = cities[i].lower()
+            
+            if city in cache :
+                answer += 1
+                cache.remove(city)
+            else :
+                answer += 5
+                
+            cache.append(city)
+            cache = cache[-cacheSize:]
+                      
     return answer
