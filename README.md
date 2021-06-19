@@ -66,6 +66,7 @@
 |20|[체육복[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/42862) |
 |21|[음양 더하기[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/76501) |
 |22|[모의고사[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/42840) |
+|23|[약수의 개수와 덧셈[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/77884) |
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/42576) |
 |7|[메뉴 리뉴얼[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/72411) |
 |8|[영어 끝말잇기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12981) |
