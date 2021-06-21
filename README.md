@@ -54,7 +54,7 @@
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 
-# Programmers - 23
+# Programmers - 24
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -67,6 +67,7 @@
 |21|[음양 더하기[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/76501) |
 |22|[모의고사[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/42840) |
 |23|[약수의 개수와 덧셈[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/77884) |
+|24|[예산[레벨1]](https://programmers.co.kr/learn/courses/30/lessons/12982) |
 |2|[123나라의 숫자[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/42576) |
 |7|[메뉴 리뉴얼[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/72411) |
 |8|[영어 끝말잇기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12981) |
