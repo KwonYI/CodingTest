@@ -54,7 +54,7 @@
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 
-# Programmers - 25
+# Programmers - 26
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -79,6 +79,7 @@
 |16|[캐시[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/17680) |
 |17|[카카오프렌즈 컬러링북[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/1829) |
 |23|[오픈채팅방[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/42888) |
+|26|[행렬 테두리 회전하기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/42888) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 |6|[불량 사용자[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/64064) |
 |12|[기지국 설치[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12979) |
