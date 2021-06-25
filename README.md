@@ -1,4 +1,4 @@
-# Baekjoon - 52
+# Baekjoon - 53
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
@@ -14,6 +14,7 @@
 |28|[순열 사이클[실1]](https://www.acmicpc.net/problem/10451)|
 |35|[RGB 거리[실1]](https://www.acmicpc.net/problem/1149)|
 |37|[영역 구하기[실1]](https://www.acmicpc.net/problem/2583)|
+|53|[트럭[실1]](https://www.acmicpc.net/problem/13335)|
 |8|[감시[골5]](https://www.acmicpc.net/problem/15683)|
 |11|[빗물[골5]](https://www.acmicpc.net/problem/14719)|
 |15|[테트로미노[골5]](https://www.acmicpc.net/problem/14500)|
