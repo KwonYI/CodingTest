@@ -56,7 +56,7 @@
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 |54|[장난감 조립[골2]](https://www.acmicpc.net/problem/2637)||
 
-# Programmers - 29
+# Programmers - 30
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -90,6 +90,7 @@
 |12|[기지국 설치[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12979) |
 |13|[스티커 모으기[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12971) |(RE)|
 |14|[숫자게임[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12987) |(RE)|
+|30|[광고삽입[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72414) |(RE)|
 # SWEA - 4
 
 |문제 푼 순서|문제 이름|비고|
