@@ -1,6 +1,6 @@
 package programmers;
 
-class Programmers_124³ª¶óÀÇ¼ıÀÚ {
+class Programmers_124ë‚˜ë¼ì˜ìˆ«ì {
 	
 	class Solution {
 

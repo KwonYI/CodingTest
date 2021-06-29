@@ -2,9 +2,9 @@ package programmers;
 
 import java.util.*;
 
-class Programmers_ÇÕ½ÂÅÃ½Ã¿ä±İ {
+class Programmers_í•©ìŠ¹íƒì‹œìš”ê¸ˆ {
 	
-	class Fare implements Comparable<Fare>{ // µµÂø ÁöÁ¡°ú °¡°İ
+	class Fare implements Comparable<Fare>{
 		int to;
 		int fare;
 		
@@ -19,9 +19,7 @@ class Programmers_ÇÕ½ÂÅÃ½Ã¿ä±İ {
 	}
 	
 	final int INF = Integer.MAX_VALUE;
-	// SÁöÁ¡¿¡¼­ °¥ ¼ö ÀÖ´Â ÃÖ¼Ò°ª, A/B±îÁö °¥ ¼ö ÀÖ´Â ÁöÁ¡µéÀÇ ÃÖ¼Ò°ª
 	int[] minFareFromS, minFareToA, minFareToB;
-	// °Å¸® ºñ¿ë ´ã¾ÆµÎ´Â ¸®½ºÆ®
 	ArrayList<Fare> fares[];
 	
 	public int solution(int n, int s, int a, int b, int[][] list) {

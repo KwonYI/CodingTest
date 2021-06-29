@@ -1,3 +1,5 @@
+package programmers;
+
 class Programmers_방문길이 {
 
 	int[][] dir = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
