@@ -1,4 +1,6 @@
-class Solution {
+package programmers;
+
+class Programmers_광고삽입 {
     
     public int ttos(String str){
         String[] arr = str.split(":");
