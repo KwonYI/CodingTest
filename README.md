@@ -1,4 +1,4 @@
-# Baekjoon - 55
+# Baekjoon - 56
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
@@ -48,6 +48,7 @@
 |49|[가장 가까운 공통 조상[골4]](https://www.acmicpc.net/problem/3584)||
 |52|[플로이드[골4]](https://www.acmicpc.net/problem/11404)|
 |55|[작업[골4]](https://www.acmicpc.net/problem/2056)|
+|56|[가르침[골4]](https://www.acmicpc.net/problem/1062)|
 |2|[파티[골3]](https://www.acmicpc.net/problem/1238)|
 |22|[욕심쟁이 판다[골3]](https://www.acmicpc.net/problem/1937)|(On)|
 |24|[원판 돌리기[골3]](https://www.acmicpc.net/problem/17822)||
