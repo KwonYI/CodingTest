@@ -57,7 +57,7 @@
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 |54|[장난감 조립[골2]](https://www.acmicpc.net/problem/2637)||
 
-# Programmers - 34
+# Programmers - 36
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -97,6 +97,7 @@
 |32|[가장 먼 노드[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/49189) ||
 |34|[네트워크[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43162) |
 |35|[단어 변환[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43163) |
+|36|[여행경로[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43164) |
 # SWEA - 4
 
 |문제 푼 순서|문제 이름|비고|
