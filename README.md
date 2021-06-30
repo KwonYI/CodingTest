@@ -87,7 +87,6 @@
 |27|[괄호 회전하기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/76502) |
 |28|[이진 변환 반복하기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/70129) |
 |33|[타켓 넘버[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/43165) |
-|34|[네크워크[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/43162) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 |6|[불량 사용자[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/64064) |
 |12|[기지국 설치[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12979) |
@@ -96,6 +95,8 @@
 |30|[광고삽입[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72414) |(RE)|
 |31|[카드 짝 맞추기[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72415) |(RE)|
 |32|[가장 먼 노드[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/49189) ||
+|34|[네트워크[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43162) |
+|35|[단어 변환[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43163) |
 # SWEA - 4
 
 |문제 푼 순서|문제 이름|비고|
