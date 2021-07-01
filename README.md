@@ -111,4 +111,5 @@
 # Goorm - 2
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
-|1|[징검다리[별5]](https://level.goorm.io/exam/43235/%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC/quiz/1) |
+|1|[징검다리[별5]](https://level.goorm.io/exam/43235/%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC/quiz/1) 
+|2|[뒤집기 정렬[별5]](https://level.goorm.io/exam/43240/%EB%92%A4%EC%A7%91%EA%B8%B0-%EC%A0%95%EB%A0%AC/quiz/1) |
