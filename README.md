@@ -107,3 +107,8 @@
 |2|[ATM(D2)](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWo3QBrKSewDFAQi&categoryId=AWo3QBrKSewDFAQi&categoryType=CODE) |
 |3|[A -> B(D3)](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWo3PPBaSecDFAQi) |
 |4|[무한 문자열(D3)](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWo3NFJKSdgDFAQi&categoryId=AWo3NFJKSdgDFAQi&categoryType=CODE) |
+
+# Goorm - 2
+|문제 푼 순서|문제 이름|비고|
+|:---:|:---:|:---:|
+|1|[징검다리[별5]](https://level.goorm.io/exam/43235/%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC/quiz/1) |
