@@ -58,7 +58,7 @@
 |42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
 |54|[장난감 조립[골2]](https://www.acmicpc.net/problem/2637)||
 
-# Programmers - 37
+# Programmers - 38
 
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
@@ -89,6 +89,7 @@
 |28|[이진 변환 반복하기[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/70129) |
 |33|[타켓 넘버[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/43165) |
 |37|[짝지어 제거하지[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/12973) |
+|38|[뉴스 클러스터링 [레벨2]](https://programmers.co.kr/learn/courses/30/lessons/17677) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 |6|[불량 사용자[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/64064) |
 |12|[기지국 설치[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12979) |
