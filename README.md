@@ -1,6 +1,7 @@
-# Baekjoon - 56
+# Baekjoon - 57
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
+|57|[달팽이는 올라가고 싶다[브1]](https://www.acmicpc.net/problem/2869)|
 |48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
 |51|[카드 놓기[실5]](https://www.acmicpc.net/problem/5568)|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
