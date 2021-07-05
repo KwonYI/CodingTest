@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-class Programmers_[3차]파일명정렬 {
+class Programmers_3차_파일명정렬 {
     
     class Name implements Comparable<Name>{
         String head;
