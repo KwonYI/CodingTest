@@ -17,11 +17,10 @@ public class BAEK_13460 {
 		}
 	}
 
-	static int N, M;
+	static int N, M, answer = 11;
 	static char[][] map;
 	static Ball hole;
-	static int[][] dirs = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
-	static int answer = 11;
+	static final int[][] dirs = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -29,109 +28,73 @@ public class BAEK_13460 {
 
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
-
 		map = new char[N][];
-
-		Ball red = null, blue = null;
+		
+		Ball blue = null, red = null;
 		for (int r = 0; r < N; r++) {
 			map[r] = bf.readLine().toCharArray();
 			for (int c = 0; c < M; c++) {
-				if (map[r][c] == 'B') {
-					blue = new Ball(r, c, 0);
-					map[r][c] = '.';
-				} else if (map[r][c] == 'R') {
-					red = new Ball(r, c, 0);
-					map[r][c] = '.';
-				} else if (map[r][c] == 'O') {
-					hole = new Ball(r, c, 0);
+				if (map[r][c] == 'B') blue = new Ball(r, c, 0);
+				else if (map[r][c] == 'R') red = new Ball(r, c, 0);
+				else if (map[r][c] == 'O') hole = new Ball(r, c, 0);
+			}
+		}
+		
+		play(blue, red, 0);
+		
+		System.out.println(answer == 11 ? -1 : answer);
+
+	}
+
+	public static void play(Ball blue, Ball red, int cnt) {
+		if(cnt > 10 || cnt >= answer || goalIn(blue, hole)) {
+			return;
+		}else if(goalIn(red, hole)) {
+			answer = Math.min(answer, cnt);
+			return;
+		}else {
+			for(int d = 0; d < dirs.length; d++) {
+				Ball nextB = move(blue, d);
+				Ball nextR = move(red, d);
+				
+				if(goalIn(nextB, hole)) {
+					continue;
+				}else if(goalIn(nextR, nextB)) {
+					if(nextR.cnt > nextB.cnt) {
+						nextR.r -= dirs[d][0];
+						nextR.c -= dirs[d][1];
+					}else {
+						nextB.r -= dirs[d][0];
+						nextB.c -= dirs[d][1];
+					}
 				}
-			}
-		}
-
-		// 현재 이동 방향으로 연속으로 가지않게 만든다
-		play(red, blue, 0, 0);
-
-		if (answer == 11) {
-			answer = -1;
-		}
-
-		System.out.println(answer);
-	}
-
-	private static void play(Ball red, Ball blue, int prevD, int round) {
-		Ball curRed = red, curBlue = blue;
-		// 10번 이상 시도했거나 파란공이 구멍에 들어갔다
-		if (round > 10 || isSamePos(blue, hole)) {
-			return;
-		}
-
-		// 10번 이하면서 파란공은 구멍에 안들어가고 빨간공은 구멍에 들어갔다
-		if (isSamePos(red, hole)) {
-			answer = Math.min(answer, round);
-			return;
-		}
-
-		// 빨간공과 파란공의 위치가 같다 -> 더 많이 이동한 공을 반대방향으로 하나 이동시킨다
-		if (isSamePos(red, blue)) {
-			if (red.cnt > blue.cnt) {
-				int nr = red.r - dirs[prevD][0];
-				int nc = red.c - dirs[prevD][1];
 				
-				curRed = new Ball(nr, nc, 0);
-			} else if(red.cnt < blue.cnt){
-				int nr = blue.r - dirs[prevD][0];
-				int nc = blue.c - dirs[prevD][1];
-				
-				curBlue = new Ball(nr, nc, 0);
-			}else {
-				System.out.println("나올리 없지");
+				play(nextB, nextR, cnt + 1);
 			}
-		}
-
-		for (int d = 0; d < 4; d++) {
-			// 이전에 움직인 방향과 같으면 못가게한다
-			if (prevD == d) {
-				continue;
-			}
-
-			// 왜 그냥 red, blue로 하면 안되는거지...???
-			Ball newRed = moveBall(curRed, d);
-			Ball newBlue = moveBall(curBlue, d);
-
-			play(newRed, newBlue, d, round + 1);
 		}
 	}
-
-	private static Ball moveBall(Ball cur, int d) {
+	
+	public static Ball move(Ball ball, int d) {
 		int cnt = 0;
-		int r = cur.r;
-		int c = cur.c;
-
-		while (true) {
-			// 움직일 위치 계산
+		int r = ball.r, c = ball.c;
+		
+		while(true) {
 			int nr = r + dirs[d][0];
 			int nc = c + dirs[d][1];
+			
+			if(map[nr][nc] == '#') break;
 
-			// 갈 수 없으면 종료
-			if (map[nr][nc] == '#') {
-				break;
-			}
-
-			// 움직이고 움직인 횟수+
 			r = nr;
 			c = nc;
 			cnt++;
-
-			// 구멍에 들어가면 종료
-			if (map[r][c] == 'O') {
-				break;
-			}
+			
+			if(map[r][c] == 'O') break;
 		}
-
+		
 		return new Ball(r, c, cnt);
 	}
-
-	public static boolean isSamePos(Ball o1, Ball o2) {
-		return o1.r == o2.r && o1.c == o2.c;
+	
+	public static boolean goalIn(Ball ball, Ball target) {
+		return ball.r == target.r && ball.c == target.c;
 	}
 }

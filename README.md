@@ -56,7 +56,7 @@
 |40|[가장 긴 바이토닉 부분 수열[골3]](https://www.acmicpc.net/problem/11054)||
 |3|[낚시왕[골2]](https://www.acmicpc.net/problem/17143)|
 |36|[RBY팡![골2]](https://www.acmicpc.net/problem/5577)|
-|42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)|(Fail)|
+|42|[구슬 탈출2[골2]](https://www.acmicpc.net/problem/13460)||
 |54|[장난감 조립[골2]](https://www.acmicpc.net/problem/2637)||
 
 # Programmers - 45
