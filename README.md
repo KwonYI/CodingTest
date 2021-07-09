@@ -98,7 +98,7 @@
 |43|[[3차]압축[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/17684) |
 |44|[입국심사[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/43238) |(RE)|
 |45|[후보키[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/42890) |(RE)|
-|48|[[3차]n진수 게임][레벨2]](https://programmers.co.kr/learn/courses/30/lessons/17687) ||
+|48|[[3차]n진수 게임[레벨2]](https://programmers.co.kr/learn/courses/30/lessons/17687) |
 |1|[합승 택시 요금[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/17686) |
 |6|[불량 사용자[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/64064) |
 |12|[기지국 설치[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/12979) |
