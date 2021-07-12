@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-class Solution {
+class Programmers_행렬테두리회전하기 {
     
     public int[] solution(int rows, int columns, int[][] queries) {
         int[] answer = new int[queries.length];
