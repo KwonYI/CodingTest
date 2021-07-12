@@ -46,7 +46,7 @@
 |29|[미친 아두이노[골4]](https://www.acmicpc.net/problem/8972)|
 |30|[벽 부수고 이동하기[골4]](https://www.acmicpc.net/problem/2206)|
 |31|[치즈[골4]](https://www.acmicpc.net/problem/2638)|
-|33|[알파벳[골4]](https://www.acmicpc.net/problem/1987)|(RE)|
+|33|[알파벳[골4]](https://www.acmicpc.net/problem/1987)||
 |34|[최소스패닝트리[골4]](https://www.acmicpc.net/problem/1197)||
 |49|[가장 가까운 공통 조상[골4]](https://www.acmicpc.net/problem/3584)||
 |52|[플로이드[골4]](https://www.acmicpc.net/problem/11404)|
