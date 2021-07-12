@@ -1,9 +1,10 @@
-# Baekjoon - 58
+# Baekjoon - 59
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |57|[달팽이는 올라가고 싶다[브1]](https://www.acmicpc.net/problem/2869)|
 |48|[나이순 정렬[실5]](https://www.acmicpc.net/problem/10814)|
 |51|[카드 놓기[실5]](https://www.acmicpc.net/problem/5568)|
+|59|[제곱수의 합[실3]](https://www.acmicpc.net/problem/1699)|
 |26|[부등호[실2]](https://www.acmicpc.net/problem/2529)|
 |39|[스티커[실2]](https://www.acmicpc.net/problem/9465)|
 |1|[안전영역[실1]](https://www.acmicpc.net/problem/2468)|
@@ -115,6 +116,7 @@
 |46|[자물쇠와 열쇠[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/60059) |
 |47|[보석쇼핑[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/67258) |
 |50|[[1차]추석트래픽][레벨3]](https://programmers.co.kr/learn/courses/30/lessons/17676) |(RE)|
+
 # SWEA - 4
 
 |문제 푼 순서|문제 이름|비고|
