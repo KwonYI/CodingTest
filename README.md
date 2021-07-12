@@ -115,7 +115,7 @@
 |36|[여행경로[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/43164) |
 |46|[자물쇠와 열쇠[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/60059) |
 |47|[보석쇼핑[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/67258) |
-|50|[[1차]추석트래픽][레벨3]](https://programmers.co.kr/learn/courses/30/lessons/17676) |(RE)|
+|50|[[1차]추석트래픽[레벨3]](https://programmers.co.kr/learn/courses/30/lessons/17676) |(RE)|
 
 # SWEA - 4
 
