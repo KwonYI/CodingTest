@@ -1,4 +1,4 @@
-# Baekjoon - 59
+# Baekjoon - 60
 |문제 푼 순서|문제 이름|비고|
 |:---:|:---:|:---:|
 |57|[달팽이는 올라가고 싶다[브1]](https://www.acmicpc.net/problem/2869)|
@@ -17,6 +17,7 @@
 |35|[RGB 거리[실1]](https://www.acmicpc.net/problem/1149)|
 |37|[영역 구하기[실1]](https://www.acmicpc.net/problem/2583)|
 |53|[트럭[실1]](https://www.acmicpc.net/problem/13335)|
+|60|[일루미네이션[실1]](https://www.acmicpc.net/problem/5547)|
 |8|[감시[골5]](https://www.acmicpc.net/problem/15683)|
 |11|[빗물[골5]](https://www.acmicpc.net/problem/14719)|
 |15|[테트로미노[골5]](https://www.acmicpc.net/problem/14500)|
